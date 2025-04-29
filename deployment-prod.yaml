@@ -41,7 +41,7 @@ metadata:
   name: prod-service
 spec:
   type: LoadBalancer 
-  loadBalancerIP: 10.48.10.130                                     # <-----change this!!!!
+  loadBalancerIP: 10.48.10.207                                   # <-----change this!!!!
   ports:
   - protocol: TCP
     port: 80
@@ -62,4 +62,4 @@ spec:
       - protocol: TCP
         port: 80
         targetPort: 80
-        nodePort: 32001
+        nodePort: 32000
